@@ -1,0 +1,14 @@
+Crie e ative o ambiente virtual
+python -m venv venv
+# Windows PowerShell
+venv\Scripts\Activate.ps1
+# Windows CMD
+venv\Scripts\activate.bat
+# Linux/Mac
+source venv/bin/activate
+
+Instale todas as dependências
+pip install -r requirements.txt
+
+Rode o app
+python app.py
